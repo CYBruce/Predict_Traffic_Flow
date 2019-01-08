@@ -1,5 +1,4 @@
-# Traffic Flow Prediction
-Traffic Flow Prediction with Neural Networks(SAEs、LSTM、GRU).
+# Traffic Flow Prediction with Neural Networks(SAEs、LSTM、GRU).
 
 ## Requirement
 - Python 3.6    
@@ -61,6 +60,11 @@ These are the details for the traffic flow prediction experiment.
 	  year={2017}
 	}
 
+# Traffic Flow Prediction with an easy but effective linear function.
+
+
+
+# Traffic Flow Prediction with an ARIMA.
 
 ## Copyright
 See [LICENSE](LICENSE) for details.
