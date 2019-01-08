@@ -1,12 +1,13 @@
-# Traffic Flow Prediction with Neural Networks(SAEs、LSTM、GRU).
+# Traffic Flow Prediction Based on different methods
 
-## Requirement
+## Neural Networks(SAEs、LSTM、GRU)
+### Requirement
 - Python 3.6    
 - Tensorflow-gpu 1.5.0  
 - Keras 2.1.3
 - scikit-learn 0.19
 
-## Train the model
+### Train the model
 
 **Run command below to train the model:**
 
@@ -17,7 +18,7 @@ python train.py --model model_name
 You can choose "lstm", "gru" or "saes" as arguments. The ```.h5``` weight file was saved at model folder.
 
 
-## Experiment
+### Experiment
 
 Data are obtained from the Caltrans Performance Measurement System (PeMS). Data are collected in real-time from individual detectors spanning the freeway system across all major metropolitan areas of the State of California.
 	
@@ -44,7 +45,7 @@ These are the details for the traffic flow prediction experiment.
 
 ![evaluate](/images/eva.png)
 
-## Reference
+### Reference
 
 	@article{SAEs,  
 	  title={Traffic Flow Prediction With Big Data: A Deep Learning Approach},  
@@ -60,11 +61,11 @@ These are the details for the traffic flow prediction experiment.
 	  year={2017}
 	}
 
-# Traffic Flow Prediction with an easy but effective linear function.
+## Traffic Flow Prediction with an easy but effective linear function.
 
 
 
-# Traffic Flow Prediction with an ARIMA.
+## Traffic Flow Prediction with an ARIMA.
 
 ## Copyright
 See [LICENSE](LICENSE) for details.
