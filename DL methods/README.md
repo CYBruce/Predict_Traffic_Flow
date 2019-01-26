@@ -43,7 +43,7 @@ These are the details for the traffic flow prediction experiment.
 | GRU | 7.20 | 99.32 | 9.97| 16.78% | 0.9389 | 0.9389|
 | SAEs | 7.06 | 92.08 | 9.60 | 17.80% | 0.9433 | 0.9442 |
 
-![evaluate](/images/eva.png)
+![evaluate](/DL%20methods/images/eva.png)
 
 ## Reference
 
