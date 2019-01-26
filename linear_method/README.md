@@ -6,11 +6,14 @@
 
 ## Description
 Take the prediction of flow profile at a given location as an example. We assume that the dynamic statistical flow profiles are normally distributed. The flow profile vector conditioned on the current measurement can be forecasted by the following best linear predictor:
-**Core function:**
-![function](/linear_method/formula1.png)
-where *q_f =col(q(k+1),···,q(k+n))* denotes the extended flow vector to be forecasted for the coming predicting horizon, *q_f* is the corresponding historical data during the same period with *E(q_f)* denotes the mean value of *q_f*, while *q_m = col(q((k−l+1)),··· , q(k))* is the measured flow vector for current time period. *S_(qˆ (f,m))* denotes the covariance matrix between *q_f* and *q_m*.
 
 **Core function:**
+
+![function](/linear_method/formula1.png)
+
+
+where *q_f =col(q(k+1),···,q(k+n))* denotes the extended flow vector to be forecasted for the coming predicting horizon, *q_f* is the corresponding historical data during the same period with *E(q_f)* denotes the mean value of *q_f*, while *q_m = col(q((k−l+1)),··· , q(k))* is the measured flow vector for current time period. *S_(qˆ (f,m))* denotes the covariance matrix between *q_f* and *q_m*.
+
 ![mechanism](/linear_method/description.png)
 
 
