@@ -6,7 +6,7 @@ MAPE  12%
 ## [Best linear method](https://github.com/CYBruce/Predict_Traffic_Flow/blob/master/predict_flow_based_on_data(pems).ipynb)
 MAPE  15%
 ![result](https://github.com/CYBruce/Predict_Traffic_Flow/blob/master/linea_method.png)
-## [ARIMA](https://github.com/CYBruce/Predict_Traffic_Flow/blob/master/predict_flow_based_on_data(pems).ipynb)
+## [ARIMA](https://github.com/CYBruce/Predict_Traffic_Flow/blob/master/linear_method)
 
 ## Copyright
 See [LICENSE](LICENSE) for details.
